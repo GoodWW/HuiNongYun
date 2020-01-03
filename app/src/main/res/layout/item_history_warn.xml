@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ihw1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="温室2#"
+            android:textColor="@color/tvDevmain1" />
+
+        <View
+            android:layout_width="3px"
+            android:layout_height="50px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@color/tvDevmain3" />
+
+        <TextView
+            android:id="@+id/tv_ihw2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="一区"
+            android:textColor="@color/tvDevmain3" />
+
+        <TextView
+            android:id="@+id/tv_ihw3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10px"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/warn_str16"
+            android:textColor="@color/tvDevmain2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_ihw1"
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/round_red" />
+
+        <TextView
+            android:id="@+id/tv_ihw4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="空气温度"
+            android:textColor="@color/tvDevmain4" />
+
+        <TextView
+            android:id="@+id/tv_ihw5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="32℃"
+            android:textColor="@color/homewarn" />
+
+        <TextView
+            android:id="@+id/tv_ihw6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10px"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="15℃~30℃"
+            android:textColor="@color/tvDevmain2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginBottom="40px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/round_green" />
+
+        <TextView
+            android:id="@+id/tv_ihw7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="2018-04-16 17:30 ~ 2018-04-17 17:30"
+            android:textColor="@color/tvDevmain2" />
+    </LinearLayout>
+
+</LinearLayout>

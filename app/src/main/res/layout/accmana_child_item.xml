@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_ac_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_aci"
+        android:layout_width="340px"
+        android:layout_height="120px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20px"
+        android:background="@drawable/accmana_child_btn_click"
+        android:text="@string/devmain_str4"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="46px" />
+
+</LinearLayout>

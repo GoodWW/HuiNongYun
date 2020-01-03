@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mWhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="34px"
+        android:background="@color/personal1" />
+
+    <TextView
+        android:id="@+id/tv_apd1"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="账号："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/personal2" />
+
+    <TextView
+        android:id="@+id/tv_apd2"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="姓名："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="34px"
+        android:background="@color/personal1" />
+
+    <TextView
+        android:id="@+id/tv_apd3"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="注册时间："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/personal2" />
+
+    <TextView
+        android:id="@+id/tv_apd4"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="手机号码："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="34px"
+        android:background="@color/personal1" />
+
+    <TextView
+        android:id="@+id/tv_apd5"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="用户角色："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/personal2" />
+
+    <TextView
+        android:id="@+id/tv_apd6"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:gravity="center_vertical"
+        android:paddingLeft="20px"
+        android:singleLine="true"
+        android:text="所属企业："
+        android:textColor="@color/colorEdit"
+        android:textSize="46px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/personal2" />
+
+</LinearLayout>

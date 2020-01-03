@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fdrf1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fdrf_terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv2"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fdrf2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fdrf_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/sta_form_str5"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/sta_form_str10"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/sta_form_str11"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/sta_form_str12"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/mRefreshLayout_fdrf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView_fdrf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

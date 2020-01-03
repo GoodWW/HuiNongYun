@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mWhite"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/tv_fert_water_top"
+        android:layout_width="150px"
+        android:layout_height="90px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/f_fert_style4"
+        android:gravity="center"
+        android:text="@string/fert_str8"
+        android:textColor="#fff"
+        android:textSize="50px" />
+
+    <View
+        android:layout_width="865px"
+        android:layout_height="10px"
+        android:layout_marginLeft="170px"
+        android:layout_marginTop="60px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_fert1"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/frame_fert" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="760px"
+        android:layout_marginTop="35px"
+        android:background="@drawable/fert_right" />
+
+    <View
+        android:layout_width="10px"
+        android:layout_height="1098px"
+        android:layout_marginLeft="1025px"
+        android:layout_marginTop="60px"
+        android:background="@color/fertview" />
+
+
+    <!--分割-->
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="1000px"
+        android:layout_marginTop="490px"
+        android:background="@drawable/fert_down" />
+
+    <ImageView
+        android:id="@+id/iv_acid1"
+        android:layout_width="80px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="130px"
+        android:background="@drawable/bucket_green" />
+
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="160px"
+        android:gravity="center"
+        android:text="@string/fert_str19"
+        android:textColor="#FFF"
+        android:textSize="40px" />
+
+    <View
+        android:layout_width="925px"
+        android:layout_height="10px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="180px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_acid_valve1"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="155px"
+        android:background="@drawable/valve_up_close" />
+
+    <ImageView
+        android:id="@+id/iv_fert2"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="140px"
+        android:background="@drawable/frame_fert" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="880px"
+        android:layout_marginTop="155px"
+        android:background="@drawable/fert_right" />
+
+    <View
+        android:layout_width="10px"
+        android:layout_height="590px"
+        android:layout_marginLeft="535px"
+        android:layout_marginTop="190px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="510px"
+        android:layout_marginTop="380px"
+        android:background="@drawable/fert_up" />
+
+
+    <ImageView
+        android:id="@+id/iv_acid2"
+        android:layout_width="80px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="280px"
+        android:background="@drawable/bucket_green" />
+
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="310px"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#FFF"
+        android:textSize="40px" />
+
+    <View
+        android:layout_width="435px"
+        android:layout_height="10px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="330px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_acid_valve2"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="305px"
+        android:background="@drawable/valve_up_close" />
+
+    <ImageView
+        android:id="@+id/iv_acid3"
+        android:layout_width="80px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="430px"
+        android:background="@drawable/bucket_green" />
+
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="460px"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="#FFF"
+        android:textSize="40px" />
+
+    <View
+        android:layout_width="435px"
+        android:layout_height="10px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="480px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_acid_valve3"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="455px"
+        android:background="@drawable/valve_up_close" />
+
+    <ImageView
+        android:id="@+id/iv_acid4"
+        android:layout_width="80px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="580px"
+        android:background="@drawable/bucket_green" />
+
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="610px"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#FFF"
+        android:textSize="40px" />
+
+    <View
+        android:layout_width="435px"
+        android:layout_height="10px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="630px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_acid_valve4"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="605px"
+        android:background="@drawable/valve_up_close" />
+
+    <ImageView
+        android:id="@+id/iv_acid5"
+        android:layout_width="80px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="730px"
+        android:background="@drawable/bucket_green" />
+
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="760px"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="#FFF"
+        android:textSize="40px" />
+
+    <View
+        android:layout_width="925px"
+        android:layout_height="10px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="780px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="700px"
+        android:layout_marginTop="755px"
+        android:background="@drawable/fert_left" />
+
+    <ImageView
+        android:id="@+id/iv_acid_valve5"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="755px"
+        android:background="@drawable/valve_up_close" />
+
+    <ImageView
+        android:layout_width="350px"
+        android:layout_height="300px"
+        android:layout_marginLeft="610px"
+        android:layout_marginTop="280px"
+        android:background="@drawable/fert_centre" />
+
+    <Button
+        android:id="@+id/btn_valve"
+        android:layout_width="250px"
+        android:layout_height="110px"
+        android:layout_marginLeft="660px"
+        android:layout_marginTop="610px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/fert_str10"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="500px"
+        android:layout_height="10px"
+        android:layout_marginLeft="525px"
+        android:layout_marginTop="910px"
+        android:background="@color/fertview" />
+
+    <LinearLayout
+        android:layout_width="400px"
+        android:layout_height="100px"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="860px"
+        android:background="@drawable/f_fert_style3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ec"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="EC=2.5"
+            android:textColor="#fff"
+            android:textSize="40px" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_ph"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="PH=2.5"
+            android:textColor="#fff"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_marginLeft="1000px"
+        android:layout_marginTop="950px"
+        android:background="@drawable/fert_down" />
+
+    <View
+        android:layout_width="1000px"
+        android:layout_height="10px"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="1040px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_valve1"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="38px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="88px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="1#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve2"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="163px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="213px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="2#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve3"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="288px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="338px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="3#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve4"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="413px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="463px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="4#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve5"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="538px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="588px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="5#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve6"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="663px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="713px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="6#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve7"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="788px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="838px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="7#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve8"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="913px"
+        android:layout_marginTop="1046px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="963px"
+        android:layout_marginTop="1046px"
+        android:gravity="center"
+        android:text="8#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <View
+        android:layout_width="1010px"
+        android:layout_height="10px"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="1149px"
+        android:background="@color/fertview" />
+
+    <ImageView
+        android:id="@+id/iv_valve9"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="38px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="88px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="9#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve10"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="163px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="213px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="10#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve11"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="288px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="338px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="11#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve12"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="413px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="463px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="12#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve13"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="538px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="588px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="13#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve14"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="663px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="713px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="14#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve15"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="788px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="838px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="15#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/iv_valve16"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="913px"
+        android:layout_marginTop="1156px"
+        android:background="@drawable/valve_up_close1" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="963px"
+        android:layout_marginTop="1156px"
+        android:gravity="center"
+        android:text="16#"
+        android:textColor="#464646"
+        android:textSize="28px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1210px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_fert_terminal"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fhe_click"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_fert_terminal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="@string/envir_fra_htv2"
+                    android:textColor="#19a982"
+                    android:textColorHint="#59b89e"
+                    android:textStyle="bold"
+                    android:textSize="44px" />
+
+                <ImageView
+                    android:layout_width="40px"
+                    android:layout_height="30px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14px"
+                    android:layout_marginRight="10px"
+                    android:background="@drawable/sanjiao" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fert_mode"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fhe_click"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_fert_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="@string/fert_str4"
+                    android:textColor="#19a982"
+                    android:textColorHint="#59b89e"
+                    android:textStyle="bold"
+                    android:textSize="44px" />
+
+                <ImageView
+                    android:layout_width="40px"
+                    android:layout_height="30px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14px"
+                    android:layout_marginRight="10px"
+                    android:background="@drawable/sanjiao" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/decoration" />
+
+        <TextView
+            android:id="@+id/tv_fert_modes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fertbac"
+            android:gravity="center"
+            android:textColor="@color/mWhite"
+            android:textSize="40px"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_fert_modes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fertbac"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20px"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="EC"
+                        android:textColor="@color/mWhite"
+                        android:textSize="30px" />
+
+                    <EditText
+                        android:id="@+id/et_fert_ec"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/f_fert_style1"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:paddingBottom="10px"
+                        android:paddingTop="10px"
+                        android:singleLine="true"
+                        android:text="1"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="ms/cm"
+                        android:textColor="@color/mWhite"
+                        android:textSize="24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20px"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="PH"
+                        android:textColor="@color/mWhite"
+                        android:textSize="30px" />
+
+                    <EditText
+                        android:id="@+id/et_fert_ph"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/f_fert_style1"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:paddingBottom="10px"
+                        android:paddingTop="10px"
+                        android:singleLine="true"
+                        android:text="7"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10px"
+                        android:text="PH"
+                        android:textColor="@color/mWhite"
+                        android:textSize="24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_fert_water"
+                        android:layout_width="160px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fhe_click"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_fert_water"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/fert_str11"
+                            android:textColor="@color/mWhite"
+                            android:textSize="30px" />
+
+                        <ImageView
+                            android:layout_width="20px"
+                            android:layout_height="14px"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="6px"
+                            android:background="@drawable/drop_down_icon" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_fert_water"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/f_fert_style1"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:paddingBottom="10px"
+                        android:paddingTop="10px"
+                        android:singleLine="true"
+                        android:text="10"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:id="@+id/tv_fert_water_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="m³"
+                        android:textColor="@color/mWhite"
+                        android:textSize="24px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:background="@color/decoration" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/ll_fert_fangshi"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/fhe_click"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_fert_fangshi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/fert_str13"
+                                android:textColor="@color/mWhite"
+                                android:textSize="40px" />
+
+                            <ImageView
+                                android:layout_width="30px"
+                                android:layout_height="20px"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="14px"
+                                android:background="@drawable/drop_down_icon" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20px"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/fert_str15"
+                                android:textColor="@color/mWhite"
+                                android:textSize="30px" />
+
+                            <TextView
+                                android:id="@+id/tv_fert_fertilizer"
+                                android:layout_width="match_parent"
+                                android:layout_height="80px"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="20px"
+                                android:background="@drawable/f_fert_style"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:textColor="@color/tvRealEnvir"
+                                android:textSize="30px" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:background="@color/decoration" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20px"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="@string/fert_str14"
+                            android:textColor="@color/mWhite"
+                            android:textSize="30px" />
+
+                        <TextView
+                            android:id="@+id/tv_fert_irrigation"
+                            android:layout_width="match_parent"
+                            android:layout_height="80px"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/f_fert_style"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/tvRealEnvir"
+                            android:textSize="30px" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/btn_fert_ok"
+                            android:layout_width="300px"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10px"
+                            android:layout_marginLeft="40px"
+                            android:layout_marginTop="10px"
+                            android:background="@drawable/login_click_effect_in"
+                            android:text="@string/fert_str16"
+                            android:textAllCaps="false"
+                            android:textColor="@color/mWhite"
+                            android:textSize="50px"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

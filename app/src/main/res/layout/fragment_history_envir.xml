@@ -1,0 +1,271 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fhe1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv2"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fhe2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fhe_terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv2"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fhe3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fhe_area"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv3"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_fhe_query"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/hef_click"
+            android:text="@string/envir_fra_htv6"
+            android:textAllCaps="false"
+            android:textColor="@color/mWhite"
+            android:textSize="44px" />
+
+        <Button
+            android:id="@+id/btn_fhe_custom"
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:background="@drawable/hef_click"
+            android:text="@string/envir_fra_htv7"
+            android:textAllCaps="false"
+            android:textColor="@color/mWhite"
+            android:textSize="44px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fhe4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fhe_start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv4"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="34px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="~"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <LinearLayout
+            android:id="@+id/ll_fhe5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fhe_end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv5"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="34px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_fhe_qh"
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:background="@drawable/hef_click"
+            android:text="@string/envir_fra_htv8"
+            android:textAllCaps="false"
+            android:textColor="@color/mWhite"
+            android:textSize="42px" />
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/mLinechart_fhe"
+        android:layout_width="match_parent"
+        android:layout_height="960px" />
+
+    <LinearLayout
+        android:id="@+id/ll_fhe6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/envir_str3"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="36px" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/envir_str4"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="36px" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/envir_str5"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="36px" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/envir_str6"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="36px" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView_fhe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView_fhe1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:visibility="gone"/>
+
+</LinearLayout>

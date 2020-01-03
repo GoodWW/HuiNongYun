@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fws1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fws_terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/warn_str12"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fws2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fws_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/warn_str17"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/warn_str19"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/warn_str20"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/warn_str21"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_fws"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_fws"
+        android:layout_width="900px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/set"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+</LinearLayout>

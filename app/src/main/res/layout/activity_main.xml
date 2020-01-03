@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="610px"
+        android:layout_height="450px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="成都智棚农业科技有限公司"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="628px"-->
+    <!--        android:layout_height="540px"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:background="@drawable/logo4" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="100px"-->
+    <!--        android:text="成都智棚农业科技有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="450px"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:text="里田农业"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textSize="150px"-->
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="100px"-->
+    <!--        android:text="天台里田农业开发有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="414px"-->
+    <!--        android:layout_height="332px"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:background="@drawable/logo_cq_big" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="100px"-->
+    <!--        android:text="重庆农村大数据投资股份有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="496px"-->
+    <!--        android:layout_height="468px"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:background="@drawable/loge3" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="100px"-->
+    <!--        android:text="上海平力农业温室工程有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+
+    <!--<ImageView
+        android:layout_width="960px"
+        android:layout_height="960px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="内蒙古鑫嘉立铭新材料科技有限公司"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="600px"-->
+    <!--android:layout_height="209px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/sign_logo_zhongluohutong" />-->
+    <!-- <ImageView
+         android:layout_width="640px"
+         android:layout_height="480px"
+         android:layout_centerInParent="true"
+         android:background="@drawable/logo_bb" />-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="山 东 锐 旭"
+        android:textSize="30sp"
+        />-->
+    <!--<ImageView
+        android:layout_width="731px"
+        android:layout_height="649px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo_nong" />-->
+    <!-- <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:background="@drawable/logo3" />-->
+
+    <!--<ImageView
+        android:layout_width="675px"
+        android:layout_height="265px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo2" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/untitled" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="800px"-->
+    <!--android:layout_height="207px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/cqncdsj" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="250px"-->
+    <!--android:layout_height="242px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/yntc_bg" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="1000px"-->
+    <!--android:layout_height="750px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/jjl" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="260px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="贵州百宜现代山地特色高效农业\n科教示范园区管理系统"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="#009241"-->
+    <!--android:textSize="74px" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="680px"-->
+    <!--android:layout_height="680px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/byxd1" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="756px"-->
+    <!--android:layout_height="274px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/nxt" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="700px"-->
+    <!--android:layout_height="438px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/sdyk" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="900px"-->
+    <!--android:layout_height="125px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/bszh" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="600px"-->
+    <!--android:layout_height="600px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/bblny" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="580px"-->
+    <!--android:layout_height="580px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/xhph" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="210px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/cdyydf" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="800px"-->
+    <!--android:layout_height="185px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/thzj" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="550px"-->
+    <!--android:layout_height="550px"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/jphq" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="500px"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="650px"-->
+    <!--android:background="@drawable/fstk" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="300px"-->
+    <!--android:layout_height="300px"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="700px"-->
+    <!--android:background="@drawable/lxws" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="400px"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="600px"-->
+    <!--android:background="@drawable/yly" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="300px"-->
+    <!--android:layout_height="300px"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="700px"-->
+    <!--android:background="@drawable/ic_launcher2" />-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:text="@string/main_str"-->
+    <!--android:textColor="#808080"-->
+    <!--android:textSize="110px"-->
+    <!--android:textStyle="bold" />-->
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="巴比伦农业物联网"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="100px"
+         android:text="山东锐旭农业科技有限公司"
+         android:textColor="@color/colorDeafult"
+         android:textSize="36px" />-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="谷雨农业科技示范园"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="嘉兴世合有机农园云平台"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="昆明苍松节水灌溉有限公司"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200px"
+        android:text="昆明苍松园艺科技有限公司"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="100px"
+         android:text="智能科学与信息工程学院"
+         android:textColor="@color/colorDeafult"
+         android:textSize="36px" />-->
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="180px"
+         android:text="西安培华学院"
+         android:textColor="@color/colorDeafult"
+         android:textSize="36px" />-->
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="100px"
+         android:text="@string/main_str"
+         android:textColor="@color/colorDeafult"
+         android:textSize="36px" />-->
+</RelativeLayout>

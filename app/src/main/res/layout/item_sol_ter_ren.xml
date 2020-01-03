@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_istr"
+        android:layout_width="0px"
+        android:layout_height="160px"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10px"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:textColor="@color/tvRealEnvir"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btn_istr"
+        android:layout_width="200px"
+        android:layout_height="120px"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:background="@drawable/item_sol_hos_on_click"
+        android:text="@string/devmain_str4"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+</LinearLayout>

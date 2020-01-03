@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fsscp1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fsscp_terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv2"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fsscp2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fsscp_area"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv3"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/fert_str48"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_fsscp1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="%"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/decoration" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/fert_str49"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_fsscp2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="%"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/decoration" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/solenoid_str16"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_fsscp3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="m³"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/decoration" />
+
+    <LinearLayout
+        android:id="@+id/ll_fsscp3"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+
+        <TextView
+            android:id="@+id/tv_fsscp_layer"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/solenoid_str17"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="60px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20px"
+            android:background="@drawable/list_arrow_right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/decoration" />
+
+    <CheckBox
+        android:id="@+id/cb_fsscp"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:gravity="center_vertical"
+        android:text="@string/fert_str42"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/decoration" />
+
+    <Button
+        android:id="@+id/btn_fsscp"
+        android:layout_width="920px"
+        android:layout_height="140px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/set"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="56px" />
+
+
+</LinearLayout>

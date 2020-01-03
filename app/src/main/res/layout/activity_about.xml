@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/personal1"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <ImageView
+        android:id="@+id/iv_about"
+        android:layout_width="700px"
+        android:layout_height="700px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130px" />
+
+    <TextView
+        android:id="@+id/tv_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="@string/personal_str27"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />
+
+    <LinearLayout
+        android:id="@+id/ll_about"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="150px"
+        android:background="@drawable/about_click"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="56px"
+            android:layout_height="56px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/update" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="44px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/personal_str14"
+            android:textColor="@color/colorEdit"
+            android:textSize="46px" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20px"
+            android:gravity="center_vertical"
+            android:text="当前版本:1.0.0"
+            android:textColor="@color/colorDeafult"
+            android:textSize="40px" />
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="60px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20px"
+            android:background="@drawable/list_arrow_right" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500px"
+        android:gravity="center"
+        android:text="@string/main_str"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginTop="500px"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="天台里田农业开发有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginTop="500px"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="重庆农村大数据投资股份有限公司"-->
+    <!--        android:textColor="@color/colorDeafult"-->
+    <!--        android:textSize="36px" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="350px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="昆明苍松节水灌溉有限公司"-->
+    <!--android:textColor="@color/colorDeafult"-->
+    <!--android:textSize="36px" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="35px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="昆明苍松园艺科技有限公司"-->
+    <!--android:textColor="@color/colorDeafult"-->
+    <!--android:textSize="36px" />-->
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="500px"
+         android:gravity="center"
+         android:text="嘉兴世合有机农园云平台"
+         android:textColor="@color/colorDeafult"
+         android:textSize="36px" />-->
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500px"
+        android:gravity="center"
+        android:text="谷雨农业科技示范园"
+        android:textColor="@color/colorDeafult"
+        android:textSize="36px" />-->
+
+</LinearLayout>

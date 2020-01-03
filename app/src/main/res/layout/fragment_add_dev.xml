@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="20px"
+    android:paddingRight="20px">
+
+    <EditText
+        android:id="@+id/et_fad_name"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_marginTop="16px"
+        android:background="@color/nocolor"
+        android:gravity="center_vertical"
+        android:hint="@string/add_dev_hint1"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_fad_number"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/nocolor"
+            android:gravity="center_vertical"
+            android:hint="@string/add_dev_hint2"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="90px"
+            android:layout_height="80px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/scanning_code" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_fad_remark"
+        android:layout_width="match_parent"
+        android:layout_height="800px"
+        android:layout_marginTop="50px"
+        android:background="@color/nocolor"
+        android:gravity="top"
+        android:hint="@string/add_dev_hint3"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btn_fad"
+        android:layout_width="900px"
+        android:layout_height="140px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/register2_btn_str"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+</LinearLayout>

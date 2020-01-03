@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_aaa"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_marginTop="20px"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:text="@string/aaa_js"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tv_aaa"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="@string/aaa_hjs"
+            android:singleLine="true"
+            android:textColor="@color/tvDevmain1"
+            android:textSize="50px" />
+
+        <ImageView
+            android:layout_width="36px"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/list_arrow_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:text="@string/aaa_acc"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_aaa_acc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:hint="@string/aaa_hacc"
+            android:singleLine="true"
+            android:textColor="@color/tvDevmain1"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:text="@string/aaa_name"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_aaa_nick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:hint="@string/aaa_hname"
+            android:singleLine="true"
+            android:textColor="@color/tvDevmain1"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:text="@string/aaa_phone"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/et_aaa_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:hint="@string/aaa_hphone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/tvDevmain1"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_aaa"
+        android:layout_width="900px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="800px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/aaa_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mWhite"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/title"
+            android:gravity="center"
+            android:paddingLeft="200px"
+            android:text="@string/login_str"
+            android:textColor="@color/mWhite"
+            android:textSize="66px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_al_switch"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:background="@color/title"
+            android:gravity="center"
+            android:text="English"
+            android:textColor="@color/mWhite"
+            android:textSize="50px" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/sign_logo" />
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/login_centre"
+        android:textColor="#666666"
+        android:textSize="56px"
+        android:textStyle="bold" />
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="316px"-->
+<!--        android:layout_height="300px"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="20px"-->
+<!--        android:layout_marginTop="100px"-->
+<!--        android:background="@drawable/logo_cq" />-->
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="324px"-->
+    <!--android:layout_height="288px"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginLeft="20px"-->
+    <!--android:layout_marginTop="100px"-->
+    <!--android:background="@drawable/cir_bszh" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="600px"-->
+    <!--android:layout_height="100px"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="@string/login_centre"-->
+    <!--android:textColor="#666666"-->
+    <!--android:textSize="56px"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="300px"-->
+    <!--android:layout_height="300px"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginLeft="20px"-->
+    <!--android:layout_marginTop="100px"-->
+    <!--android:background="@drawable/yly" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="600px"-->
+    <!--android:layout_height="100px"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="智慧园林管理服务系统"-->
+    <!--android:textColor="#666666"-->
+    <!--android:textSize="56px"-->
+    <!--android:textStyle="bold" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="600px"-->
+    <!--android:layout_height="209px"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginLeft="20px"-->
+    <!--android:layout_marginTop="100px"-->
+    <!--android:background="@drawable/sign_logo_zhongluohutong" />-->
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_login_account"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200px"
+        android:hint="@string/login_hint_account"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/accounts_icon"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_login_password"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:hint="@string/login_hint_password"
+        android:inputType="textPassword"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/password_icon"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_login_forget"-->
+    <!--android:layout_width="900px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="10px"-->
+    <!--android:text="@string/login_forget"-->
+    <!--android:textColor="@color/colorDeafult"-->
+    <!--android:textSize="50px"-->
+    <!--android:visibility="invisible" />-->
+
+    <Button
+        android:id="@+id/btn_login_in"
+        android:layout_width="900px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/login_btn_str"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220px"
+        android:text="@string/login_noaccount"
+        android:textColor="@color/colorDeafult"
+        android:textSize="50px" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="360px"-->
+    <!--android:text="四川原力元农业科技有限公司技术支持"-->
+    <!--android:textColor="@color/colorDeafult"-->
+    <!--android:textSize="40px" />-->
+
+    <Button
+        android:id="@+id/btn_login_register"
+        android:layout_width="900px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:background="@drawable/login_register_effect"
+        android:text="@string/login_register_str"
+        android:textAllCaps="false"
+        android:textColor="@color/title"
+        android:textSize="54px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="124px"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_iws"
+            android:layout_width="80px"
+            android:layout_marginLeft="10px"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_iws"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/tvRealEnvir" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_iws1"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textColor="@color/tvRealEnvir"
+        android:textSize="40px" />
+
+    <EditText
+        android:id="@+id/et_iws2"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textColor="@color/tvRealEnvir"
+        android:textSize="40px" />
+
+</LinearLayout>

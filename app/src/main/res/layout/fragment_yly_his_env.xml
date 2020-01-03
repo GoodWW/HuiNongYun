@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fyhe1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fyhe_terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv2"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_fyhe_query"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/hef_click"
+            android:text="@string/envir_fra_htv6"
+            android:textAllCaps="false"
+            android:textColor="@color/mWhite"
+            android:textSize="44px" />
+
+        <Button
+            android:id="@+id/btn_fyhe_custom"
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:background="@drawable/hef_click"
+            android:text="@string/envir_fra_htv7"
+            android:textAllCaps="false"
+            android:textColor="@color/mWhite"
+            android:textSize="44px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fyhe2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fyhe_start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv4"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="34px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="~"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+
+        <LinearLayout
+            android:id="@+id/ll_fyhe3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fhe_click"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fyhe_end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/envir_fra_htv5"
+                android:singleLine="true"
+                android:textColor="@color/tvRealEnvir"
+                android:textSize="34px" />
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/drop_down_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/mLinechart_fyhe"
+        android:layout_width="match_parent"
+        android:layout_height="1100px"
+        android:layout_marginTop="100px" />
+
+</LinearLayout>

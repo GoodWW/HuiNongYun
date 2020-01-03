@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="6px"
+    android:paddingLeft="14px"
+    android:paddingRight="14px"
+    android:paddingTop="6px">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="150px"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_ishc1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="灌溉1区"
+                android:textColor="@color/tvDevmain1"
+                android:textSize="50px" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="50px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20px"
+                android:background="@color/tvDevmain1" />
+
+            <TextView
+                android:id="@+id/tv_ishc2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="60%电量"
+                android:textColor="@color/tvDevmain1"
+                android:textSize="40px" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_ishc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:singleLine="true"
+            android:text="已关闭"
+            android:textColor="@color/tvDevmain2"
+            android:textSize="40px" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ishc"
+        android:layout_width="180px"
+        android:layout_height="120px"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10px"
+        android:background="@drawable/item_sol_hos_on_click"
+        android:text="打开"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textStyle="bold"
+        android:textSize="46px" />
+
+</LinearLayout>

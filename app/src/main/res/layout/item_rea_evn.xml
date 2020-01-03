@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120px"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_ire"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ambient_ec" />
+
+        <TextView
+            android:id="@+id/tv_ire1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:text="空气温度"
+            android:textColor="@color/tvRealEnvir"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_ire2"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="25℃"
+        android:textColor="@color/tvRealEnvir"
+        android:textSize="40px" />
+
+</LinearLayout>

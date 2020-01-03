@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30px"
+    android:paddingTop="26px"
+    android:paddingBottom="26px"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_menu_devmain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tvDevmain1"
+        android:textSize="50px"
+        android:text="温室1# | 编号:0115648795"/>
+    <TextView
+        android:id="@+id/tv_menu_devmain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textColor="@color/tvDevmain2"
+        android:textSize="40px"
+        android:text="IP/端口:192.168.0.1:8008"/>
+
+</LinearLayout>

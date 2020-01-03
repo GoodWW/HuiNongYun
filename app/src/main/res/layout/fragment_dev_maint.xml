@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_top_fdm"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:gravity="center"
+        android:text="@string/hone_bottom2"
+        android:textColor="@color/mWhite"
+        android:textSize="60px"
+        android:textStyle="bold" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/mRefreshLayout_fdm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mWhite">
+
+        <com.yanzhenjie.recyclerview.swipe.widget.StickyNestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.yanzhenjie.recyclerview.swipe.widget.StickyNestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

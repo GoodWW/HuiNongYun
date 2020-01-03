@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/system_in_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_cir"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_cir_back"
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40px"
+                android:layout_height="66px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_top_back"
+                android:layout_width="104px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6px"
+                android:gravity="center"
+                android:text="@string/back_str"
+                android:textColor="@color/mWhite"
+                android:textSize="42px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="160px"
+            android:gravity="center"
+            android:text="@string/hone_circle_title"
+            android:textColor="@color/mWhite"
+            android:textSize="70px"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_ac1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90px"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/hone_circle_str"
+        android:textColor="@color/mWhite"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_ac1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="90px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="贵州农业职业学院\n百宜实训基地"-->
+    <!--android:textColor="@color/mWhite"-->
+    <!--android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/tv_ac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="@string/hone_circle_str2"
+        android:textColor="@color/mWhite" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.cdzp.huinongyun.util.CircleMenuLayout
+            android:id="@+id/id_menulayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/system_in_bj">
+
+            <RelativeLayout
+                android:id="@id/id_circle_menu_item_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/system_logo" />
+                <!--<ImageView-->
+                <!--android:layout_width="106dp"-->
+                <!--android:layout_height="106dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="@drawable/byxd1" />-->
+                <!--<ImageView-->
+                <!--android:layout_width="94dp"-->
+                <!--android:layout_height="94dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="@drawable/yly" />-->
+            </RelativeLayout>
+        </com.cdzp.huinongyun.util.CircleMenuLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_ac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120px"
+        android:gravity="center"
+        android:text="@string/hone_circle_str3"
+        android:textColor="@color/mWhite" />
+
+</LinearLayout>

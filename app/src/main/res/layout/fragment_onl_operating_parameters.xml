@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/online_fert_frame"
+        android:orientation="vertical"
+        android:padding="6px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="EC(mS)"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PH(ph)"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert122"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_water1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_water2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert123"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_ph1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_ph2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert124"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_a1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_a2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert125"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_b1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_b2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert126"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_c1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_c2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="30px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert127"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_d1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop_d2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="@drawable/online_fert_frame"
+        android:orientation="vertical"
+        android:padding="10px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert128"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert129"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert130"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert131"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert132"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert133"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="A"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="B"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="C"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="D"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert107"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+
+            <EditText
+                android:id="@+id/et_onl_foop7"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop8"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop9"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop10"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts_onl_fert5"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="40px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onl_fert134"
+                android:textSize="@dimen/ts_onl_fert4" />
+
+            <EditText
+                android:id="@+id/et_onl_foop11"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="@dimen/ts_onl_fert4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

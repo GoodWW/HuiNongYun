@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30px"
+    android:paddingTop="26px"
+    android:paddingBottom="26px"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_drorem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tvDevmain1"
+        android:textSize="46px"
+        android:text="温室1# | 掉线时长:300分钟/5小时"/>
+    <TextView
+        android:id="@+id/tv_drorem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textColor="@color/tvDevmain2"
+        android:textSize="38px"
+        android:text="掉线时间:2018-03-15 10:30"/>
+    <TextView
+        android:id="@+id/tv_drorem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textColor="@color/tvDevmain2"
+        android:textSize="38px"
+        android:text="编号:0135689745"/>
+    <TextView
+        android:id="@+id/tv_drorem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textColor="@color/tvDevmain2"
+        android:textSize="38px"
+        android:text="IP/端口:192.168.0.1:8008"/>
+
+</LinearLayout>

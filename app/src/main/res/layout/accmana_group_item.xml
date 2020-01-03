@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/head_default" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="180px"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10px">
+
+        <TextView
+            android:id="@+id/tv_afi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="张三 | 企业用户"
+            android:textColor="@color/tvDevmain1"
+            android:textSize="54px" />
+
+        <TextView
+            android:id="@+id/tv_afi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="角色：企业管理员"
+            android:textColor="@color/tvDevmain2"
+            android:textSize="44px" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_agi"
+        android:layout_width="50px"
+        android:layout_height="30px"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="20px"
+        android:background="@drawable/list_arrow_down" />
+
+</LinearLayout>

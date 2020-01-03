@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="decoration">#d1d1d1</color>
+
+    <color name="title">#37B492</color>
+    <color name="black">#000000</color>
+    <color name="mWhite">#ffffff</color>
+
+    <color name="colorfocus">#1296db</color>
+    <color name="colorDeafult">#b4797979</color>
+
+    <color name="colorText">#787878</color>
+    <color name="colorEdit">#696969</color>
+
+    <color name="itemDecoration">#dedede</color>
+    <color name="homewarn">#b4ff0c0c</color>
+    <color name="nocolor">#00000000</color>
+
+    <color name="ycolor">#ff9d00</color>
+
+    <color name="tvDevmain1">#333333</color>
+    <color name="tvDevmain3">#484848</color>
+    <color name="tvDevmain4">#777777</color>
+    <color name="tvDevmain2">#999999</color>
+
+    <color name="tvMenusticky1">#00A3AF</color>
+    <color name="tvMenusticky2">#506320</color>
+    <color name="tvMenusticky3">#2CA9E1</color>
+    <color name="tvMenusticky4">#E29C45</color>
+    <color name="tvMenusticky5">#7D7D7D</color>
+    <color name="tvMenusticky6">#47885E</color>
+    <color name="tvMenusticky7">#69B076</color>
+    <color name="tvMenusticky8">#89C3EB</color>
+    <color name="tvMenusticky9">#27BA20</color>
+
+    <color name="tvRealEnvir">#666666</color>
+
+    <color name="video1">#3EBA26</color>
+    <color name="video2">#F19C41</color>
+    <color name="video3">#9576F9</color>
+    <color name="video4">#4EACFB</color>
+
+    <color name="realtimewarn1">#5EB4F7</color>
+    <color name="realtimewarn2">#F96767</color>
+    <color name="realtimewarn3">#37B492</color>
+
+    <color name="fertview">#7e7e7e</color>
+
+    <color name="personal1">#efefef</color>
+    <color name="personal2">#e9e9e9</color>
+
+    <color name="fertbac">#3d3f40</color>
+
+    <color name="onl_fert">#788a92</color>
+
+</resources>

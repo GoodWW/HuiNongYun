@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_fav1"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_marginTop="16px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str1"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <LinearLayout
+        android:id="@+id/ll_fav"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="30px">
+
+        <TextView
+            android:id="@+id/tv_fav_2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="@string/faddvid_str2"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:textSize="50px" />
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="60px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/list_arrow_right" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_fav3"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str3"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+
+    <EditText
+        android:id="@+id/et_fav4"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str5"
+        android:inputType="number"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/et_fav5"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str4"
+        android:inputType="number"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/et_fav6"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str8"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_fav7"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str10"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/et_fav8"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/nocolor"
+        android:hint="@string/faddvid_str11"
+        android:paddingLeft="30px"
+        android:singleLine="true"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/et_fav9"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_marginTop="30px"
+        android:background="@color/nocolor"
+        android:gravity="top"
+        android:hint="@string/faddvid_str12"
+        android:paddingLeft="30px"
+        android:textColor="@color/colorEdit"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btn_fav"
+        android:layout_width="900px"
+        android:layout_height="140px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/register2_btn_str"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+</LinearLayout>

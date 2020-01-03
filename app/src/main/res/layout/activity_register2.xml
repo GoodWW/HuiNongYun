@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mWhite"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <ImageView
+        android:layout_width="756px"
+        android:layout_height="120px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:background="@drawable/re_step2" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_ar2_companyName"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100px"
+        android:hint="@string/register2_hint2_et1"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/re_enterprise"
+        app:met_iconPadding="0dp"
+        app:met_maxCharacters="16"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_ar_address"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:focusable="false"
+        android:hint="@string/register2_hint2_et2"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/re_address"
+        app:met_iconPadding="0dp"
+        app:met_maxCharacters="16"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_ar2_companyAccounts"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:hint="@string/register2_hint2_et3"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/accounts_icon"
+        app:met_iconPadding="0dp"
+        app:met_maxCharacters="16"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_ar2_password"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:hint="@string/register2_hint2_et4"
+        android:inputType="textPassword"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/repeat_password"
+        app:met_iconPadding="0dp"
+        app:met_maxCharacters="16"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_ar2_rassword"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:hint="@string/register2_hint2_et5"
+        android:inputType="textPassword"
+        android:textSize="50px"
+        app:met_baseColor="@color/colorDeafult"
+        app:met_clearButton="true"
+        app:met_iconLeft="@drawable/repeat_rassword"
+        app:met_iconPadding="0dp"
+        app:met_maxCharacters="16"
+        app:met_primaryColor="@color/title"
+        app:met_singleLineEllipsis="true" />
+
+
+    <Button
+        android:id="@+id/btn_register2_ok"
+        android:layout_width="900px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200px"
+        android:background="@drawable/login_click_effect_in"
+        android:text="@string/register2_btn_str"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:textSize="58px"
+        android:textStyle="bold" />
+
+</LinearLayout>
